@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: inline-flex;
+    padding: 32px 120px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1{
+    color: #000000;
+    text-align: center;
+    font-family: Cormorant Upright;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 57.2px */
+    letter-spacing: 1.76px;
+    text-transform: uppercase;
+}
+
+.menu{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 32px;
+    list-style-type: none;
+    margin-left: 100px;
+}
+
+.menu li{
+    color: var(--FFFFFF, #000000);
+
+    /* Body 16px Regular */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%; /* 28px */
+    letter-spacing: 0.64px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    position: relative;
+    left: 150px;
+}
+
+.nav-buttons h3 a {
+    color: #000000;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 175%; /* 28px */
+    letter-spacing: 0.8px;
+    /* text-transform: capitalize; */
+    text-decoration: none;
+}
+
+.nav-svg{
+    width: 0px;
+    height: 57px;
+}
+
+#restaurant-Home{
+/* border-style: solid; */
+padding: 80px;
+
+}
+#restaurant-Home2{
+    /* border-style: solid; */
+    padding: 50px;
+    margin-top: -90px;
+
+}
+#restaurant-Content{
+    /* border-style: solid; */
+    display: flex;
+    /* justify-content: center; */
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+#restaurant-Content h4{
+    margin-top: 100px;
+    margin-right: 150px;
+    color: #000000;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 175%; /* 31.5px */
+letter-spacing: 0.72px;
+
+transform: rotate(-90deg);
+}
+.content-left{
+    /* border-style: solid; */
+    position: relative;
+    right: 100px;
+    margin-top: 20px;
+}
+.content-left h3{
+    color: var(--FFFFFF, #000000);
+font-variant-numeric: lining-nums tabular-nums;
+
+/* H5 23px Cormorant Upright */
+font-family: Cormorant Upright;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%; /* 29.9px */
+letter-spacing: 0.92px;
+text-transform: capitalize;
+}
+.content-left svg{
+    width: 20px;
+height: 30px;
+/* transform: rotate(90deg); */
+}
+.content-left .text{
+    color: var(--DCCA87, #DCCA87);
+
+/* H1 90px Cormorant Upright Semi */
+font-family: Cormorant Upright;
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+line-height: 110%; /* 117px */
+letter-spacing: 3.6px;
+text-transform: capitalize;
+}
+.content-left h5{
+    color: var(--AAAAAA, #AAA);
+
+/* Body 16px Regular */
+font-family: Open Sans;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: 175%; /* 28px */
+letter-spacing: 0.64px;
+}
+.content-left button{
+    border: none;
+    margin-top: 10px;
+    /* display: flex; */
+padding: 8px 15px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+/* typogrpahy  */
+color: #0C0B08;
+
+/* Button */
+font-family: Cormorant Upright;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: 175%; /* 28px */
+letter-spacing: 0.64px;
+background: var(--DCCA87, #DCCA87);
+}
+.restaurant-Smalltext{
+    margin-top: 20px;
+   text-align: center;
+}
+.content-right{
+    display: flex;
+    position: relative;
+    /* border: solid; */
+    position: relative;
+    left: 100px;
+}
+.content-right img{
+    z-index: 1;
+}
+.rectangle1{
+left: 80px;
+Top: -20px;
+position: absolute;
+width: 235px;
+height: 235px;
+flex-shrink: 0;
+background: var(--DCCA87, #DCCA87);
+}
+.rectangle2{
+right: 80px;
+bottom: -20px;
+position: absolute;
+width: 235px;
+height: 235px;
+flex-shrink: 0;
+background: var(--DCCA87, #DCCA87);
+}
+
+#Main-content{
+    display: flex;
+    justify-content: center;
+}
+#Gshape{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+#Gshape svg{
+    position: relative;
+    top: 50px;
+    width: 291px;
+height: 250px;
+flex-shrink: 0;
+fill: #666666;
+}
+#Gshape img{
+flex-shrink: 0;
+position: absolute;
+
+}
