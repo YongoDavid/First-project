@@ -700,3 +700,174 @@ letter-spacing: 0.64px;
     top: 35%;
     right: 43%;
 }
+
+/* Gallery section  */
+#Gallery{
+    margin-top: 2%;
+    background-color: black;
+}
+.Gallery-content{
+    display: flex;
+    justify-content: center;
+}
+.Gallery-left{
+    margin-top: 5%;
+    margin-right: 15px;
+}
+.Gallery-left h5{
+color: var(--FFFFFF, #ffffff);
+font-family: Cormorant Upright;
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 29.9px */
+letter-spacing: 0.92px;
+text-transform: capitalize;
+}
+.Gallery-left svg{
+width: 25px;
+height: 40px;
+}
+.Gallery-left h3{
+color: var(--DCCA87, #DCCA87);
+font-family: Cormorant Upright;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 83.2px */
+letter-spacing: 2.56px;
+text-transform: capitalize;
+}
+.Gallery-left p{
+color: var(--AAAAAA, #AAA);
+/* Body 16px Regular */
+font-family: Open Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 175%; /* 28px */
+letter-spacing: 0.64px;
+}
+.Gallery-left button{
+margin-top: 10px;
+padding: 8px 15px;
+background: var(--DCCA87, #DCCA87);
+border: none;
+color: var(--0C0C0C, #0C0C0C);
+font-family: Cormorant Upright;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: 175%; /* 28px */
+letter-spacing: 0.64px;
+}
+.Gallery-right img{
+    margin: 20px;
+}
+
+#Find{
+    /* background-image: url(images/malik-skydsgaard-jY9rX-E7ztU-unsplash\ 1.png); */
+    margin-top: 30px;
+    padding: 30px;
+}
+.Find-content{
+    display: flex;
+    justify-content: center;
+}
+.Find-left{
+    margin-right: 50px;
+    padding: 20px;
+}
+.Find-left h5{
+color: var(--FFFFFF, #000000);
+font-family: Cormorant Upright;
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 29.9px */
+letter-spacing: 0.92px;
+text-transform: capitalize;
+}
+.Find-left svg{
+width: 20px;
+height: 40px;
+}
+.Find-left h3{
+color: var(--DCCA87, #DCCA87);
+font-family: Cormorant Upright;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 83.2px */
+letter-spacing: 2.56px;
+text-transform: capitalize;
+}
+.Find-left p{
+color: var(--AAAAAA, #908f8f);
+/* Body 16px Regular */
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 175%; /* 28px */
+letter-spacing: 0.64px;
+}
+.Find-left h4{
+    color: var(--DCCA87, #DCCA87);
+font-variant-numeric: lining-nums tabular-nums;
+
+/* H5 23px Cormorant Upright */
+font-family: Cormorant Upright;
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 29.9px */
+letter-spacing: 0.92px;
+text-transform: capitalize;
+}
+.Find-left button{
+margin-top: 10px;
+padding: 8px 15px;
+background: var(--DCCA87, #DCCA87);
+border: none;
+color: var(--0C0C0C, #0C0C0C);
+font-family: Cormorant Upright;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: 175%; /* 28px */
+letter-spacing: 0.64px;
+}
+.Find-right{
+    position: relative;
+}
+.Find-right img{
+    /* z-index: 10; */
+}
+.Find-rectangle1{
+left: 80px;
+Top: -20px;
+position: absolute;
+width: 235px;
+height: 235px;
+flex-shrink: 0;
+background: var(--DCCA87, #DCCA87);
+z-index: -1;
+}
+.Find-rectangle2{
+right: 83px;
+Top: 118px;
+position: absolute;
+width: 235px;
+height: 235px;
+flex-shrink: 0;
+background: var(--DCCA87, #DCCA87);
+z-index: -1;
+}
+
+#Newsletter{
+    
+}
+.Newsletter-content {
+    
+}
