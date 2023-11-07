@@ -341,10 +341,10 @@ line-height: 130%;
 letter-spacing: 0.92px;
 text-transform: capitalize;
 }
-#Drinks-heading svg{
-    /* width: 30px;
-    height: 60px; */
-}
+/* #Drinks-heading svg{
+    width: 30px;
+    height: 60px;
+} */
 #Drinks-heading h1{
 color: var(--DCCA87, #DCCA87);
 text-align: center;
@@ -841,9 +841,9 @@ letter-spacing: 0.64px;
 .Find-right{
     position: relative;
 }
-.Find-right img{
-    /* z-index: 10; */
-}
+/* .Find-right img{
+    z-index: 10;
+} */
 .Find-rectangle1{
 left: 80px;
 Top: -20px;
@@ -865,9 +865,9 @@ background: var(--DCCA87, #DCCA87);
 z-index: -1;
 }
 
-#Newsletter{
+/* #Newsletter{
     
-}
-.Newsletter-content {
+} */
+/* .Newsletter-content {
     
-}
+} */
