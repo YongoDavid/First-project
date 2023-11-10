@@ -3,7 +3,7 @@
     padding: 0;
     /* background-color: #0C0B08; */
 }
-
+/* NAVIGATION AREA  */
 nav{
     display: inline-flex;
     padding: 32px 120px;
@@ -70,12 +70,12 @@ h1{
     /* text-transform: capitalize; */
     text-decoration: none;
 }
-
 .nav-svg{
     width: 0px;
     height: 57px;
 }
 
+/* RESTAURANT AREA */
 #restaurant-Home{
 /* border-style: solid; */
 padding: 80px;
@@ -200,7 +200,7 @@ height: 235px;
 flex-shrink: 0;
 background: var(--DCCA87, #DCCA87);
 }
-
+/* MAIN SECTION  */
 #Main-content{
 width: 100%vw;
 display: flex;
@@ -233,7 +233,6 @@ width: 100%vw;
 height: 400px;
 flex-shrink: 0;
 }
-
 .Main-contentleft{
 margin-top: 8%;
 text-align: end;
@@ -278,8 +277,6 @@ line-height: 175%; /* 28px */
 letter-spacing: 0.64px;
 background: var(--DCCA87, #DCCA87);
 }
-
-
 .Main-contentright{
     margin-top: 8%;
     text-align: start;
@@ -324,6 +321,7 @@ letter-spacing: 0.64px;
 background: var(--DCCA87, #DCCA87);
 }
 
+/* DRINKS SECTION */
 #Drinks{
     margin-top: 60px;
     padding: 50px;
@@ -383,7 +381,6 @@ text-transform: capitalize;
 .Drinksleft-menu1 ul li{
 color: var(--DCCA87, #DCCA87);
 font-variant-numeric: lining-nums tabular-nums;
-
 /* H5 23px Cormorant Upright */
 font-family: Cormorant Upright;
 font-size: 15px;
@@ -396,7 +393,6 @@ text-transform: capitalize;
 .Drinksleft-menu1 ul p{
 color: var(--AAAAAA, #AAA);
 text-align: center;
-
 /* Body 16px Regular */
 font-family: Open Sans;
 font-size: 10px;
@@ -412,7 +408,6 @@ letter-spacing: 0.64px;
 .Drinksleft-menu1 ul p{
     margin-top: -30px;
 }
-
 .Drink-sectionright{
     display: block;
     text-align: center;
@@ -437,7 +432,6 @@ text-transform: capitalize;
 .Drinksright-menu2 ul li{
 color: var(--DCCA87, #DCCA87);
 font-variant-numeric: lining-nums tabular-nums;
-
 /* H5 23px Cormorant Upright */
 font-family: Cormorant Upright;
 font-size: 15px;
@@ -450,7 +444,6 @@ text-transform: capitalize;
 .Drinksright-menu2 ul p{
 color: var(--AAAAAA, #AAA);
 text-align: center;
-
 /* Body 16px Regular */
 font-family: Open Sans;
 font-size: 10px;
@@ -491,6 +484,8 @@ letter-spacing: 0.64px;
 #Drinks-btn{
     padding: 40px;
 }
+
+/* CHEFS AREA  */
 
 #Chef{
     margin-top: 10px;
@@ -610,12 +605,12 @@ padding-bottom: 20px;
 }
 
 #Awards-main{
-    display: flex;
-    /* border-style: solid; */
-    justify-content: center;
+display: flex;
+/* border-style: solid; */
+justify-content: center;
 }
 .Awards-leftheading{
-    margin-left: 39px;
+margin-left: 39px;
 }
 .Awards-leftheading h4{
 color: var(--FFFFFF, #ffffff);
@@ -651,7 +646,7 @@ text-transform: capitalize;
 }
 .Awards-left img{
 width: 50px;
-    height: 50px;
+height: 50px;
 }
 .award1{
     display: inline-flex;
@@ -813,9 +808,8 @@ line-height: 175%; /* 28px */
 letter-spacing: 0.64px;
 }
 .Find-left h4{
-    color: var(--DCCA87, #DCCA87);
+color: var(--DCCA87, #DCCA87);
 font-variant-numeric: lining-nums tabular-nums;
-
 /* H5 23px Cormorant Upright */
 font-family: Cormorant Upright;
 font-size: 17px;
@@ -865,9 +859,174 @@ background: var(--DCCA87, #DCCA87);
 z-index: -1;
 }
 
-/* #Newsletter{
-    
-} */
-/* .Newsletter-content {
-    
-} */
+/* NEWS LETTTER SECTION  */
+
+#Newsletter{
+border: 1px solid rgba(220, 202, 135, 0.20);
+background: var(--0C0C0C, #0C0C0C);
+/* Dark Card shadow */
+/* box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.70); */
+}
+.Newsletter-content{
+    margin-top: 10px;
+    text-align: center;
+    padding: 20px;
+}
+.Newsletter-content svg{
+width: 20px;
+height: 20px;
+}
+.Newsletter-content h2 , p , form {
+    padding-bottom: 10px;
+}
+.Newsletter-content h4{
+color: var(--FFFFFF, #ffffff);
+font-variant-numeric: lining-nums tabular-nums;
+/* H5 23px Cormorant Upright */
+font-family: Cormorant Upright;
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 29.9px */
+letter-spacing: 0.92px;
+text-transform: capitalize;
+}
+.Newsletter-content h2{
+color: var(--DCCA87, #DCCA87);
+text-align: center;
+font-variant-numeric: lining-nums tabular-nums;
+/* H2 64px Cormorant Upright */
+font-family: Cormorant Upright;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 83.2px */
+letter-spacing: 1.92px;
+text-transform: capitalize;
+}
+.Newsletter-content {
+color: #ffffff;
+text-align: center;
+/* Body 16px Regular */
+font-family: Open Sans;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: 175%; /* 28px */
+letter-spacing: 0.64px;
+}
+
+/* FORM AREA  */
+
+#form-area form{
+    justify-content: center;
+}
+
+form input{
+   text-align: start;
+    width: 20%;
+    padding: 11px;
+border-color: #f0e0a8;
+color: var(--AAAAAA, #AAA);
+text-align: center;
+font-variant-numeric: lining-nums tabular-nums;
+background-color: #0C0B08;
+
+/* H6 16px Cormorant Upright */
+font-family: Cormorant Upright;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 175%; /* 28px */
+letter-spacing: 0.64px;
+text-transform: capitalize;
+}
+form button{
+color: var(--0C0C0C, #0C0C0C);
+/* Button */
+font-family: Cormorant Upright;
+font-size: 11px;
+font-style: normal;
+font-weight: 600;
+line-height: 175%; /* 28px */
+letter-spacing: 0.64px;
+
+padding: 8px 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+
+border: 1px solid var(--DCCA87, #DCCA87);
+background: var(--DCCA87, #DCCA87);
+}
+
+/* FIRST FOOTER  */
+
+.footerOne-inside{
+    text-align: center;
+}
+#footer1{
+    justify-content: center;
+    margin-top: 40px;
+    display: flex;
+    margin-right: 30px;
+}
+
+.footerOne{
+    padding-right: 20px;
+}
+.footerOne svg{
+    width: 20px;
+height: 10px;
+}
+
+.footerOne h5 , h4{
+    color: var(--F5EFDB, #F5EFDB);
+font-variant-numeric: lining-nums tabular-nums;
+
+/* H4 32px Cormorant Upright */
+font-family: Cormorant Upright;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 41.6px */
+letter-spacing: 1.28px;
+text-transform: capitalize;
+}
+.footerOne p{
+color: var(--AAAAAA, #AAA);
+text-align: center;
+
+/* Body 16px Regular */
+font-family: Open Sans;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 175%; /* 28px */
+letter-spacing: 0.64px;
+}
+.footerOne h2{
+color: var(--DCCA87, #DCCA87);
+text-align: center;
+font-family: Cormorant Upright;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 83.2px */
+letter-spacing: 2.56px;
+text-transform: uppercase;
+}
+
+#footer2{
+margin-top: 30px;
+text-align: center;
+color: var(--AAAAAA, #AAA);
+text-align: center;
+/* Body 16px Regular */
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 175%; /* 28px */
+letter-spacing: 0.64px;
+}
