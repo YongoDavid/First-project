@@ -3,6 +3,9 @@
     padding: 0;
     /* background-color: #0C0B08; */
 }
+/* body{
+    background: #0C0B08;
+} */
 /* NAVIGATION AREA  */
 nav{
     display: inline-flex;
@@ -169,15 +172,17 @@ letter-spacing: 0.64px;
 background: var(--DCCA87, #DCCA87);
 }
 .restaurant-Smalltext{
+position: relative;
+left: 12%;
 margin-top: 20px;
 text-align: center;
 }
 .content-right{
 display: flex;
 position: relative;
+left: 13%;
 /* border: solid; */
-position: relative;
-left: 100px;
+
 }
 .content-right img{
  z-index: 1;
@@ -201,11 +206,7 @@ flex-shrink: 0;
 background: var(--DCCA87, #DCCA87);
 }
 /* MAIN SECTION  */
-#Main-content{
-width: 100%vw;
-display: flex;
-/* justify-content: center; */
-}
+
 #Gshape{
 display: flex;
 position: relative;
@@ -226,10 +227,11 @@ position: absolute;
 }
 
 #Main-content{
+display: flex;
 padding: 40px;
 background-image: url(images/malik-skydsgaard-jY9rX-E7ztU-unsplash\ 1.png);
 /* padding: 60px; */
-width: 100%vw;
+/* width: 100%vw; */
 height: 400px;
 flex-shrink: 0;
 }
@@ -363,7 +365,7 @@ margin-bottom: 20px;
     text-align: center;
 }
 .Drinks-sectionleft h2{
-color: var(--FFFFFF, #000000);
+color: var(--FFFFFF, #FFF);
 text-align: center;
 font-variant-numeric: lining-nums tabular-nums;
 /* H3 45px Cormorant upright Semi */
@@ -412,8 +414,29 @@ letter-spacing: 0.64px;
     display: block;
     text-align: center;
 }
+.stroke-Drinks{
+width: 50px;
+height: 1px;
+color: var(--FAFAFA, #FAFAFA);
+background: var(--FAFAFA, #FAFAFA) ;
+margin: 10px;
+}
+.Drinksleft-menu1 ul li , .Drinksright-menu2 ul li {
+    display: flex;
+    align-items: center;
+}
+.drinks-svg{
+    position: absolute;
+    z-index: 2;
+    stroke-width: 2px;
+    stroke: #ABABAB;
+    opacity: 0.2;
+    width: 2228px;
+    height: 408px;
+    flex-shrink: 0;
+}
 .Drinks-sectionright h2{
-color: var(--FFFFFF, #000000);
+color: var(--FFFFFF, #FFF);
 text-align: center;
 font-variant-numeric: lining-nums tabular-nums;
 /* H3 45px Cormorant upright Semi */
@@ -479,7 +502,7 @@ letter-spacing: 0.64px;
 }
 
 #Drinks-area{
-    background-color: black;
+    background: #0C0B08;
 }
 #Drinks-btn{
     padding: 40px;
