@@ -3,6 +3,9 @@
     padding: 0;
     /* background-color: #0C0B08; */
 }
+body{
+     width: 100%;
+}
 
 nav{
     display: inline-flex;
