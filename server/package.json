@@ -1,0 +1,15 @@
+{
+  "name": "the-gritch-main-project",
+  "version": "1.0.0",
+  "description": "This project is a front-end design of a restaurant website i am about to round off the design all i need to do is to clean up the spacing and it is fully ready",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  }
+}
