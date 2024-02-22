@@ -1,9 +1,9 @@
 /* MOBILE VIEW DESIGN IN PROGRESS  */
 /* Mobile  */
 @media (max-width: 1200px){
-    /* body{
+    body{
         width: 100vw;
-    } */
+    }
     #desktop-nav{
         display: none;
     }
@@ -433,54 +433,72 @@
     }
     .Find-left h5{
         color: white;
+        font-size: 13px;
+    }
+    .Find-left h3 , .Find-left h4{
+        font-size: 15px;
+    }
+    .Find-left p{
+        font-size: 13px;
     }
     .Find-right{
        display: none;
     }
+    .Find-left button{
+        font-size: 8px;
+    }
+    /* NEWS LETTER  */
 
-    .Newsletter-content h2{
+    .Newsletter-content h2 ,  .Newsletter-content h4{
         font-size: 15px;
     }
+
     #form-area input{
         display: none;
     }
 
     /* THE FOOTER   */
     .TheonlyFooter{
-        display: none;
-    }
-    /* #footer1{
-        margin-top: 0;
-        margin-right: 0;
-    }
-    .footerOne{
-        padding-right: 0; 
-    }
-    .TheonlyFooter{
-        height: 0;
-        width: 0;
-        display: none;
-        background: none;
-        padding-top: 0;
-        padding-bottom: 0;
-        width: 0;
-        height: 0;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        padding-bottom: 0px;
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 500px;
     }
     #footer1{
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        margin-right: 0px;
+        padding: 10px;
+    }
+    .footerOne{
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding-right: 0px;
         display: flex;
         flex-direction: column;
     }
-    .footerOne-inside svg{
-        display: none;
+    .footerOne{
+        padding-right: 0px;
     }
-    #footer2 p{
-        display: flex;
-    } */
+    .footerOne svg{
+        width: 20px;
+        height: 30px;
+    }
 
+    #footer2{
+        left: 0px;
+    }
 
-}
-
-    
+}    
 
 
 /* desktop  */
