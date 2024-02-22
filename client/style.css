@@ -338,7 +338,7 @@ background: var(--DCCA87, #DCCA87);
     text-align: center;
 }
 #Drinks-heading h3{
-    color: var(--FFFFFF, rgb(255, 255, 255));
+color: var(--FFFFFF, rgb(255, 255, 255));
 font-family: Cormorant Upright;
 font-size: 15px;
 font-style: normal;
@@ -493,8 +493,8 @@ letter-spacing: 0.64px;
    display: flex;
 }
 #Drinks-btn button{
-    margin-left: auto;
-    margin-right: auto;
+margin-left: auto;
+margin-right: auto;
 padding: 8px 15px;
 background: var(--DCCA87, #DCCA87);
 border: none;
@@ -558,7 +558,7 @@ background: var(--DCCA87, #DCCA87);
     margin-top: 6%;
 }
 .Chef-right h2{
-    color: var(--FFFFFF, #ffffff);
+color: var(--FFFFFF, #ffffff);
 font-variant-numeric: lining-nums tabular-nums;
 /* H5 23px Cormorant Upright */
 font-family: Cormorant Upright;
@@ -571,7 +571,7 @@ text-transform: capitalize;
 padding-bottom: 10px;
 }
 .Chef-right h3{
-    color: var(--DCCA87, #DCCA87);
+color: var(--DCCA87, #DCCA87);
 font-variant-numeric: lining-nums tabular-nums;
 
 /* H2 64px Cormorant Upright */
@@ -595,7 +595,7 @@ letter-spacing: 0.64px;
 padding-bottom: 10px;
 }
 .Chef-right h4{
-    color: var(--DCCA87, #DCCA87);
+color: var(--DCCA87, #DCCA87);
 font-variant-numeric: lining-nums tabular-nums;
 /* H4 32px Cormorant Upright */
 font-family: Cormorant Upright;
@@ -1008,7 +1008,7 @@ background: var(--DCCA87, #DCCA87);
     padding-right: 20px;
 }
 .footerOne svg{
-    width: 20px;
+width: 20px;
 height: 10px;
 }
 

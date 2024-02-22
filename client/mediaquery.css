@@ -1,0 +1,491 @@
+/* MOBILE VIEW DESIGN IN PROGRESS  */
+/* Mobile  */
+@media (max-width: 1200px){
+    /* body{
+        width: 100vw;
+    } */
+    #desktop-nav{
+        display: none;
+    }
+
+    /* modefied styles  */
+
+    #hamburger-nav {
+        position: relative;
+        display: flex; 
+        justify-content: space-between;
+        align-items: flex-start; 
+        padding: 0 20px; /* Adjust the padding as needed */
+    }
+    
+    #hamburger-nav .logo {
+        color: white;
+        font-size: 30px;
+        order: 1; /* Move the logo to the first position */
+        position: relative;
+        right: 7%;
+    }
+    
+    #hamburger-nav .hamburger-menu {
+        order: 2; /* Move the hamburger-menu to the second position */
+    }
+    
+    /* new styles  */
+
+    .hamburger-menu , .logo {
+        position: relative; /* Ensure relative positioning for absolute positioning inside */
+        padding: 30px 20px;
+        display: inline-block;
+    }
+    
+    .hamburger-icon {
+        position: relative;
+        /* position: absolute; */
+        top: 6px; /* Adjust the top position as needed */
+        left: 10%; /* Adjust the right position as needed */
+        z-index: 2; /* Ensure the icon is above the menu */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 32px;
+        height: 25px;
+        cursor: pointer;
+    }
+    
+    .hamburger-icon span {
+        min-width: 100%;
+        min-height: 2px;
+        /* background-color: black; */
+        background-color: white;
+        transition: all 0.3 ease-in-out;
+        /* new style  */
+        display: inline-block;
+        /* position: absolute; */
+        background: #b69761;
+        border-radius: 3px;
+        opacity: 1;
+        left: 0;
+        transform: rotate(0deg);
+        transition-behavior: normal;
+        transition-duration: 0.25s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 0s;
+        transition-property: all;
+    }
+    .menu-links {
+        z-index: 1;
+        overflow: hidden;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        background: #1b0b05;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.4s all;
+        padding: 30px 20px;
+        transform: translate(100%, 0);
+        transition: 0.4s opacity, 0.4s left; /* Apply transition to opacity and left */
+    }
+    
+    .menu-links.open {
+        overflow: hidden;
+        opacity: 1;
+        visibility: visible;
+        transform: translate(0, 0);
+        max-height: 300px;
+    }
+    
+    .menu-links a {
+        display: block;
+        padding: 10px;
+        text-align: center;
+        font: 30px;
+        color: white;
+        text-decoration: none;
+        /* transition: all 0.3 ease-in-out; */
+    }
+    .menu-links li {
+        list-style: none;
+    }
+    
+    
+    .hamburger-icon.open span:first-child {
+        transform: rotate(45deg) translate(10px , 5px );
+    }
+    .hamburger-icon.open span:nth-child(2) {
+        opacity: 0;
+    }
+    .hamburger-icon.open span:last-child {
+        transform: rotate(-45deg) translate(10px , -5px );
+    }
+    .hamburger-icon span:first-child {
+        transform: none;
+    }
+    .hamburger-icon span:first-child {
+        opacity: 1;
+    }
+    .hamburger-icon span:first-child {
+        transform: none;
+    }
+
+    /* Home section  */
+    #restaurant-Home{
+        padding: 1px;
+    }
+    #restaurant-Home2 {
+        /* padding: 30%;  */
+        margin-top: 5px;
+    }
+    .content-left{
+        position: relative;
+        margin-top: 120px;
+        right: 10%;
+    }
+    .content-left button {
+        margin-top: 2%;
+        padding: 10px;
+        font-size: 8px;
+        margin-bottom: 2%;
+    }
+    .content-left h3{
+        font-size: 13px;
+    }
+    .content-left h5{
+        font-size: 13px;
+        margin-bottom: 2%;
+    }
+    .content-left .text{
+        font-size: 20px;
+        margin-bottom: 6%;
+    }
+    #restaurant-Content {
+        display: flex;
+        margin-top: 10%;
+        /* flex-direction: column; */
+    }
+    #restaurant-Content  pre{
+        display: none;
+    }
+    .content-right{
+        z-index: -1;
+        position: absolute;
+        top: -15%;
+        margin-left: 9%;
+        left: 20%;
+    }
+    .content-right > .rectangle1{
+        left: 60px;
+        top: -10px;
+    }
+    .content-right > .rectangle2{
+        right: 60px;
+        bottom: -10px;
+    }
+    .content-right img{
+        width: 100px;
+        height: 100px;
+    }
+    .content-right > .rectangle1 , .rectangle2{
+    /* display: none; */
+    width: 50px;
+    height: 50px;
+    }
+    .restaurant-Smalltext {
+    position: relative;
+    left: 0px;
+    margin-top: 0px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    }  
+    .restaurant-Smalltext h4{
+        font-size: 10px;
+    }  
+
+    /* MAIN CONTENT  */
+    #Gshape svg{
+       display: none;
+    }
+    #Gshape img{
+        display: none;
+    }
+    #Main-content{
+        /* margin: auto; */
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    #Main-content svg{
+        width: 20px;
+    }
+    .Main-contentleft , .Main-contentright {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .Main-contentleft h2 , .Main-contentright h2{
+        font-size: 15px;
+        margin: 0;
+    }
+    .Main-contentleft p ,   .Main-contentright p{
+        font-size: 10px;
+    }
+    .Main-contentleft button ,   .Main-contentright button{
+        font-size: 8px;
+    }
+
+    /* DRINKS AREA  */
+    #Drinks{
+        margin-top: 20px;
+        /* display: flex;
+        flex-direction: column; */
+        padding: 0px;
+    }
+    #Drinks-heading h1{
+        margin-top: 5px;
+        font-size: 15px;
+    }
+    #Drinks-section img{
+        display: none;
+    }
+    #Drinks-section{
+        /* position: relative; */
+        display: flex;
+        /* flex-direction: column; */
+    }
+    .Drinks-sectionleft{
+        margin-left: 0px;
+    }
+    .Drinks-sectionright{
+        margin-right: 0px;
+    }
+    .Drinks-sectionleft > h2 , .Drinks-sectionright h2 {
+        font-size: 10px;
+    }
+    .Drinksleft-menu1 , .Drinksright-menu2{
+        padding: 0px;
+        margin-top: -15px;
+    }
+    .Drinksleft-menu1 ul li , .Drinksright-menu2 ul li{
+        font-size: 10px;
+    }
+    #Drinks-btn {
+        margin-top: -20px;
+    }
+    #Drinks-btn button{
+        font-size: 8px;
+    }
+
+    /* CHEF AREA  */
+    #Chef{
+        margin: 0;
+        padding: 10px;
+        /* display: flex; */
+        flex-direction: column;
+        background-image: none;
+        position: relative;
+    }
+    #Chefs-area{
+        padding-bottom: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .Chef-left {
+        margin-left: 0;
+    }
+    .Chef-left img{
+        position: absolute;
+        left: 50%;
+        top: 64%;
+        /* justify-content: center; */
+        z-index: -20;
+        width: 150px;
+        height: 140px;
+    }
+    .rectangleONE ,.rectangleTWO{
+        display: none;
+    }
+    .Chef-right {
+        margin-left: 0;
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .Chef-right svg{
+        width: 20px;
+        height: 30px;
+    }
+    .Chef-right p{
+        font-size: 13px;
+    }
+    .Chef-right h2{
+        font-size: 10px;
+        padding-bottom: 0px;
+    }
+    .Chef-right h3 , .Chef-right h4 , .Chef-right h5{
+        font-size: 15px;
+    }
+    .Chef-right img{
+        width: 100px;
+        height: 50px;
+    }
+    .RestuarantView{
+        display: none;
+    }
+
+    /* Awards  */
+    #Awards{
+        padding: 5px;
+    }
+    #Awards-main{
+        margin-top: 20px;
+        /* display: none; */
+        display: flex; 
+        flex-direction: column; 
+    }
+    #Awards > img{
+        margin-top: 10px;
+        width: 40px;
+        height: 40px;
+    }
+    .award1 , .award2 {
+       padding: 10px;
+    }
+    .award1 img , .award2 img{
+        width: 50px;
+        height: 50px;
+    }
+    .Awards-main{
+        display: none;
+    }
+    .Awards-leftheading svg{
+       width: 20px;
+       height: 30px;
+    }
+    .Awards-leftheading h4{
+       font-size: 10px;
+    }
+    .Awards-leftheading h2{
+       font-size: 15px;
+    }
+    .Awards-right{
+        display: none;
+    }
+
+    /* GALLERY AREA  */
+    #Gallery{
+
+    }
+    .Gallery-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .Gallery-left{
+        margin-right: 0px;
+        padding: 10px;
+    }
+    .Gallery-left svg{
+        width: 20px;
+        height: 30px;
+    }
+    .Gallery-left h3{
+        font-size: 15px;
+    }
+    .Gallery-left p{
+        font-size: 11px;
+    }
+    .Gallery-left button{
+        display: none;
+        /* font-size: 8px; */
+    }
+    .Gallery-right > img{
+        margin: 0; 
+        justify-content: center; 
+        align-items: center;
+        text-align: center;
+        justify-items: center;
+        margin: 15px;
+        width: 100px;
+        height: 100px;
+    }
+    /* FIND AREA  */
+    #Find{
+        position: relative;
+        background: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .Find-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .Find-left h5{
+        color: white;
+    }
+    .Find-right{
+       display: none;
+    }
+
+    .Newsletter-content h2{
+        font-size: 15px;
+    }
+    #form-area input{
+        display: none;
+    }
+
+    /* THE FOOTER   */
+    .TheonlyFooter{
+        display: none;
+    }
+    /* #footer1{
+        margin-top: 0;
+        margin-right: 0;
+    }
+    .footerOne{
+        padding-right: 0; 
+    }
+    .TheonlyFooter{
+        height: 0;
+        width: 0;
+        display: none;
+        background: none;
+        padding-top: 0;
+        padding-bottom: 0;
+        width: 0;
+        height: 0;
+    }
+    #footer1{
+        display: flex;
+        flex-direction: column;
+    }
+    .footerOne-inside svg{
+        display: none;
+    }
+    #footer2 p{
+        display: flex;
+    } */
+
+
+}
+
+    
+
+
+/* desktop  */
+@media screen and (min-width: 992px){
+    #hamburger-nav{
+        display: none;
+    }
+}
