@@ -5,6 +5,8 @@
 }
 body{
     background: #0C0B08;
+    width: 100vw;
+    overflow-x: hidden;
 }
 /* NAVIGATION AREA  */
 nav{

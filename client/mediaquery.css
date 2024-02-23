@@ -1,8 +1,9 @@
 /* MOBILE VIEW DESIGN IN PROGRESS  */
 /* Mobile  */
 @media (max-width: 1200px){
-    body{
-        width: 100vw;
+    body {
+        /* overflow-y: hidden; */
+        overflow-x: hidden;
     }
     #desktop-nav{
         display: none;
@@ -19,19 +20,24 @@
     }
     
     #hamburger-nav .logo {
+        position: absolute;
+        right: 10%;
         color: white;
         font-size: 30px;
         order: 1; /* Move the logo to the first position */
         position: relative;
         right: 7%;
     }
+    .menu-links > li .logo.open{
+        /* position: absolute;
+        right: 20%; */
+        display: none;
+    }
     
     #hamburger-nav .hamburger-menu {
         order: 2; /* Move the hamburger-menu to the second position */
     }
-    
     /* new styles  */
-
     .hamburger-menu , .logo {
         position: relative; /* Ensure relative positioning for absolute positioning inside */
         padding: 30px 20px;
@@ -497,10 +503,7 @@
     #footer2{
         left: 0px;
     }
-
 }    
-
-
 /* desktop  */
 @media screen and (min-width: 992px){
     #hamburger-nav{
