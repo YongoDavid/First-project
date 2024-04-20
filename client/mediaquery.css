@@ -8,9 +8,7 @@
     #desktop-nav{
         display: none;
     }
-
     /* modefied styles  */
-
     #hamburger-nav {
         position: relative;
         display: flex; 
@@ -18,7 +16,6 @@
         align-items: flex-start; 
         padding: 0 20px; /* Adjust the padding as needed */
     }
-    
     #hamburger-nav .logo {
         position: absolute;
         right: 10%;
@@ -33,7 +30,6 @@
         right: 20%; */
         display: none;
     }
-    
     #hamburger-nav .hamburger-menu {
         order: 2; /* Move the hamburger-menu to the second position */
     }
